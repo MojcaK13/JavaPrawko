@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Kategorie {
+public class InformacjaOKategoriach {
 
     public void Wyswietl() {
         String[] kategoria = {"nazwa kategorii:","min. wiek:","pojazdy dla tej kategorii:","wymagania dodatkowe:"};
