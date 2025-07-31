@@ -8,10 +8,17 @@ public class Kategorie {
         String[] katA1 = {"A1","16 lat","motocykl o poj. silnika do 125 cm^3+pojazdy z kat. AM","przed 18:zgoda rodziców,starsi-brak wymagań"};
         String[] katA2 = {"A2","18 lat","motocykl o mocy nie większej niż 35 kW+pojazdy z kat. AM","brak wymagań"};
         String[] katA = {"A","20 lat/24 lata","motocykl+pojazdy z kat. AM","do 24 lat:2 lata z kat.A2,24 lata i starsi:brak"};
+        String[] katB1 = {"B1","16 lat","minisamochód,wszystkie quady i pojazdy z kat.AM","przed 18:zgoda rodziców,starsi-brak wymagań,choć lepiej celować w kat. B"};
+        String[] katB = {"B","18 lat","samochód osobowy+pojazdy z kat.B1","brak"};
+        String[] katBE = {"B+E","18 lat","samochód osobowy z przyczepą","posiadanie prawa jazdy kategorii B"};
+
         System.out.println(Arrays.toString(kategoria));
         System.out.println(Arrays.toString(katAM));
         System.out.println(Arrays.toString(katA1));
         System.out.println(Arrays.toString(katA2));
         System.out.println(Arrays.toString(katA));
+        System.out.println(Arrays.toString(katB1));
+        System.out.println(Arrays.toString(katB));
+        System.out.println(Arrays.toString(katBE));
     }
 }
