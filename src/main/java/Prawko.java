@@ -7,5 +7,8 @@ public class Prawko {
         Scanner autko = new Scanner(System.in);
 
         informacjaOKategoriach.Wyswietl();
+        egzaminZJazdy.InformacjaOEgzaminie();
+        egzaminZJazdy.PrzejedzPlac();
+        egzaminZJazdy.PrzejedzMiasto();
     }
 }
