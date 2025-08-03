@@ -15,7 +15,6 @@ public class Prawko {
             egzaminZJazdy.InformacjaOEgzaminie();
             egzaminZJazdy.PrzejedzPlac();
             egzaminZJazdy.PrzejedzMiasto();
-            System.out.println("Jazda zakończona...jak zdane,to mamy wszystko z głowy...tylko wyrobić dokument-chyba,że nam jeszcze zostało coś do zdania.");
         }else{
             System.out.println("Niewłaściwa wartość!");
         }
