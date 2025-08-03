@@ -14,7 +14,6 @@ public class Prawko {
         }else if (pojazd == 'e' || pojazd == 'E') {
             egzaminZJazdy.InformacjaOEgzaminie();
             egzaminZJazdy.PrzejedzPlac();
-            System.out.println("Plac z głowy,teraz miasto.");
             egzaminZJazdy.PrzejedzMiasto();
             System.out.println("Jazda zakończona...jak zdane,to mamy wszystko z głowy...tylko wyrobić dokument-chyba,że nam jeszcze zostało coś do zdania.");
         }else{
