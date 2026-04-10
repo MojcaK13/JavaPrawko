@@ -5,7 +5,13 @@ public class EgzaminZJazdy {
     public void InformacjaOEgzaminie() {
         System.out.println("Po zdanym egzaminie teoretycznym dla danej kategorii,można podejść do części praktycznej;jeśli nie przewidziano części teoretycznej,można zdawać egzamin z jazdy od razu.");
     }
+    /**
+     * The function "PrzejedzPlac" in Java describes the practical driving exam process, including
+     * maneuvers on a practice course and additional tasks for motorcycles and quads.
+     */
     public void PrzejedzPlac() {
+        System.out.println("Egzamin praktyczny składa się z dwóch części:jazdy po placu manewrowym i jazdy po mieście.");
+        System.out.println("Możliwe,że niedługo nie będzie już placu manewrowego dla kategorii B1,B lub BE,ale póki co jest on obowiązkowy.");
         System.out.println("Jazda po placu manewrowym.");
         System.out.println("1.Przygotowanie do jazdy.");
         System.out.println("Sprawdzić wybrany wskaźnik lub dźwięk klaksonu,potem jedno ze świateł.");
@@ -33,6 +39,14 @@ public class EgzaminZJazdy {
         }
         System.out.println("Plac z głowy,teraz miasto.");
     }
+    // The `PrzejedzMiasto()` method in the Java code is describing the practical driving exam process
+    // in a city setting. It outlines various tasks and maneuvers that need to be performed during the
+    // driving exam, such as merging into traffic, driving on different types of roads, navigating
+    // through intersections, parking, overtaking, changing lanes, following speed limits, and
+    // interacting with different road signs and signals. Additionally, it includes additional tasks
+    // related to trailers, tunnels, and railway/tram crossings. The method concludes by stating that
+    // once the exam is completed successfully, the driver can proceed to the licensing authority
+    // (WORD) to obtain their driving license.
     public void PrzejedzMiasto() {
         System.out.println("Jazda po mieście.");
         System.out.println("1.Włączanie się do ruchu.");

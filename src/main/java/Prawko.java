@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Prawko {
+    /**
+     * The main function in Java prompts the user to choose between displaying information about
+     * driving license categories and their requirements or information about the practical driving
+     * exam, based on user input.
+     */
     public static void main(String[] args) {
         InformacjaOKategoriach informacjaOKategoriach = new InformacjaOKategoriach();
         EgzaminZJazdy egzaminZJazdy = new EgzaminZJazdy();

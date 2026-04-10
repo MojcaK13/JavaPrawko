@@ -2,6 +2,10 @@ import java.util.Arrays;
 
 public class InformacjaOKategoriach {
 
+    /**
+     * The function `Wyswietl` in Java displays information about different driving license categories
+     * and their requirements.
+     */
     public void Wyswietl() {
         String[] kategoria = {"nazwa kategorii:","min. wiek:","pojazdy dla tej kategorii:","wymagania dodatkowe:","egz. teoretyczny/praktyczny"};
         String[] katAM = {"AM","14 lat","motorower i quad do 350 kg","przed 18:zgoda rodziców,starsi-brak wymagań","tak/tak"};
@@ -9,7 +13,7 @@ public class InformacjaOKategoriach {
         String[] katA2 = {"A2","18 lat","motocykl o mocy nie większej niż 35 kW+pojazdy z kat. AM","brak wymagań","tak/tak"};
         String[] katA = {"A","20 lat/24 lata","motocykl+pojazdy z kat. AM","do 24 lat:2 lata z kat.A2,24 lata i starsi:brak","tak/tak"};
         String[] katB1 = {"B1","16 lat","minisamochód,wszystkie quady i pojazdy z kat.AM","przed 18:zgoda rodziców,starsi-brak wymagań,choć lepiej celować w kat. B","tak/tak"};
-        String[] katB = {"B","18 lat","samochód osobowy+pojazdy z kat.B1","brak","tak/tak"};
+        String[] katB = {"B","17 lat/18 lat","samochód osobowy+pojazdy z kat.B1","przed 18:zgoda rodziców,starsi-brak wymagań","tak/tak"};
         String[] katBE = {"B+E","18 lat","samochód osobowy z przyczepą+pojazdy z kat.B","posiadanie prawa jazdy kategorii B","nie/tak"};
         String[] katC1 = {"C1","18 lat","ciężarówka do 7,5 tony,zespół złożony z tego pojazdu i przyczepy lekkiej+pojazdy z kat.AM","posiadanie prawa jazdy kategorii B","tak/tak"};
         String[] katC1E = {"C1+E","18 lat","ciężarówka z przyczepą-łączna masa zestawu max 12 ton i pojazdy z kat. C1","posiadanie prawa jazdy kategorii C1","nie/tak"};
